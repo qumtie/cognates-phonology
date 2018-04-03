@@ -38,7 +38,7 @@ class clGraphonolev(object):
 	'''
 
 
-	def __init__(self, Debug = False, DebugFile = 'md060graphonolev-debug.txt', DebugMode = 'a', TransliterationTable = False, FeatueTable = 'm1012graphonolev-phonetic-features.tsv'):
+	def __init__(self, Debug = False, DebugFile = 'm1012graphonolev-debug.txt', DebugMode = 'a', TransliterationTable = False, FeatueTable = 'm1012graphonolev-phonetic-features.tsv'):
 		'''
 		Constructor
 		'''
