@@ -3,6 +3,8 @@ the shell script which runs it and explanation of command-line arguments: m1012g
 
 Input files, resources, generated output are in the same directory
 
+intput format is specified in the m1012graphonolev.sh file (see it for explanation of each argv[ ] argument of the command line, or change permission by chmod a+x m1012graphonolev.sh and then run it, to see the result.
+
 # output format for the script:
 # sys.stdout.write('%(SW1)s, %(SW2)s, %(Lev0)d, %(Lev0Norm).4f, %(LevenshteinI2).4f, %(LevenshteinI2Norm).4f, %(LevenshteinI4).4f, %(LevenshteinI4Norm).4f, %(LevenshteinI6).4f, %(LevenshteinI6Norm).4f, %(LevenshteinI8).4f, %(LevenshteinI8Norm).4f, %(Lev1).4f, %(Lev1Norm).4f\n' % locals())
 # where:
