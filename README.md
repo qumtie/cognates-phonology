@@ -38,3 +38,6 @@ Lev1 = phonological Levenshtein distance, with insertion cost 1
 
 Lev1Norm = the same, normalised for length
 
+two lines are generated for each word pair in the input file -- for each phonological feature set, specified in argv[6] = the list of phonological feature tables
+
+(the first one is the hierarcical (best performance); the second one is plain vector of features (over-generates on larger search spaces)
