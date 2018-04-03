@@ -1,4 +1,4 @@
-# transliteration argument is set to False
+# transliteration argument is set to None in the first example, and set to use a Latin to Cyrillic translateration table from "m1012graphonolev-phonetic-trans-lat2cyr.txt" in the second example
 # command line arguments:
 # argv[1] = input file
 # argv[2] = source language code (must be the same as the character feature language codes in the m1012graphonolev-phonetic-features*.tsv files -- (the second field in these files)
